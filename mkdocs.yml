@@ -1,0 +1,31 @@
+site_name: My Docs
+
+
+repo_name: mlquantify
+repo_url: https://github.com/luizfernandolj/mlquantify
+edit_uri: 'docs/'
+
+
+nav:
+  - Home: assets/overrides/page2.html
+  - Página HTML: index.md
+
+
+
+theme: 
+    name: material
+    custom_dir: docs/assets/overrides 
+  
+plugins:
+  - search
+
+markdown_extensions:  
+    - toc:                 
+        permalink: true
+
+
+
+extra_css:
+    - assets/stylesheets/extra.css
+extra_javascript:
+    - assets/scripts/extra.js
